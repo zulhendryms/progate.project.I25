@@ -82,7 +82,7 @@ form {
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%,0%);
   transition: all 1s;
   width: 30px;
   height: 30px;
@@ -134,4 +134,7 @@ form:hover input {
 
 form:hover .fa {
   color: rgba(0, 136, 169, 1);
+}
+.search{
+    
 }
